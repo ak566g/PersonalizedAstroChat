@@ -1,0 +1,38 @@
+# Python virtual envs
+venv/
+.venv/
+backend/.venv/
+frontend/.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Local runtime data
+data/
+backend/data/
+frontend/data/
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.cache/
+frontend/.DS_Store
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
